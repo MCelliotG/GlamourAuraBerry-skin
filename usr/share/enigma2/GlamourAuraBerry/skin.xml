@@ -1317,14 +1317,13 @@
       <convert type="FrontendInfo">SNRdB</convert>
     </widget>
     <eLabel text="AGC:" position="1285,67" size="60,30" halign="center" font="Regular; 25" backgroundColor="background20" transparent="1" valign="center" zPosition="2" noWrap="1" />
-    <widget source="session.FrontendStatus" render="Label" position="1340,67" size="105,30" font="Regular; 25" backgroundColor="background20" transparent="1" halign="center" foregroundColor="cyan" valign="center" zPosition="3" noWrap="1">
+    <widget source="session.FrontendStatus" render="Label" position="1340,67" size="105,30" font="Regular; 25" backgroundColor="background20" transparent="1" halign="center" foregroundColor="berry" valign="center" zPosition="3" noWrap="1">
       <convert type="FrontendInfo">AGC</convert>
     </widget>
     <eLabel text="BER:" position="1285,93" size="60,30" halign="center" font="Regular; 25" backgroundColor="background20" transparent="1" valign="center" zPosition="2" noWrap="1" />
-    <widget source="session.FrontendStatus" render="Label" position="1340,93" size="105,30" font="Regular; 25" backgroundColor="background20" transparent="1" halign="center" foregroundColor="cyan" valign="center" zPosition="3" noWrap="1">
+    <widget source="session.FrontendStatus" render="Label" position="1340,93" size="105,30" font="Regular; 25" backgroundColor="background20" transparent="1" halign="center" foregroundColor="berry" valign="center" zPosition="3" noWrap="1">
       <convert type="FrontendInfo">BER</convert>
     </widget>
-  </screen>
   </screen>
   <!-- Tuners Info -->
   <screen name="TunersInfo" flags="wfNoBorder">
